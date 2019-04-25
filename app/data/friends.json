@@ -1,34 +1,66 @@
 [
-{
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
-    "scores": [
-    "5",
-    "1",
-    "4",
-    "4",
-    "5",
-    "1",
-    "2",
-    "5",
-    "4",
-    "1"
-    ]
+    {
+        "name": "Bob",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Robert_Culp_1965.JPG/116px-Robert_Culp_1965.JPG",
+        "scores": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+        ]
     },
     {
-        "name": "billy bob",
-        "photo": "https://static.parade.com/wp-content/uploads/2017/09/montel-williams-new-series-ftr.jpg",
+        "name": "Carol",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Natalie_Wood_Allan_Warren.jpg/96px-Natalie_Wood_Allan_Warren.jpg",
         "scores": [
-        "5",
-        "1",
-        "4",
-        "4",
-        "5",
-        "1",
-        "2",
-        "5",
-        "4",
-        "1"
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
         ]
-        }
+    },
+    {
+        "name": "Ted",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Elliott_Gould_-_1986.jpg/111px-Elliott_Gould_-_1986.jpg",
+        "scores": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+        ]
+    },
+    {
+        "name": "Alice",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Dyan_Cannon_1950s-cropped.jpg/111px-Dyan_Cannon_1950s-cropped.jpg",
+        "scores": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+        ]
+    }
 ]

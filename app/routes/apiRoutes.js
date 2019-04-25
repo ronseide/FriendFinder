@@ -20,16 +20,10 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
 
   app.get("/api/friends", function(req, res) {
-    // console.log(surveyData.scores[0]);
-    // console.log(surveyData.scores[1]);
-    // console.log(surveyData.scores[2]);
 
     res.json(surveyData);
   });
 
-//   app.get("/api/waitlist", function(req, res) {
-//     res.json(waitListData);
-//   });
 
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
@@ -61,16 +55,12 @@ module.exports = function(app) {
           bestMatch.name = surveyData[i].name;
           bestMatch.photo = surveyData[i].photo;
           bestMatch.scores = surveyData[i].scores;
+          bestMatch.totalDifference = difference;
         }
       }
       surveyData.push(newUser);
       res.json(bestMatch);
       console.log("bestMatch", bestMatch);
-    // }
-    // else {
-    //   waitListData.push(req.body);
-    //   res.json(false);
-    // }
   });
 
   // ---------------------------------------------------------------------------

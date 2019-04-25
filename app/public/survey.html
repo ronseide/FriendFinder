@@ -260,7 +260,7 @@
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
           $("#match-name").text(data.name);
           $("#match-img").attr("src", data.photo);
-          $("#match-img").attr("style", "width: 100px; height: 100px;");
+          $("#match-img").attr("style", "width: auto; height: auto;");
 
           // Show the modal with the best match
           $("#results-modal").modal("toggle");
